@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  user-select: none;
+}
+
+.clock-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 1px 1px #333;
+  text-align: center;
+  color: #eee;
+}
+
+.clock {
+  font-size: 150px;
+}
+
+.user {
+  font-size: 2.8rem;
+}
+
+small {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .clock {
+    font-size: 90px;
+  }
+
+}
