@@ -57,13 +57,9 @@ footer .who {
 
 
 @media only screen and (max-width: 600px) {
-
-  html {
-  overflow-y: hidden;
-  }
   
   .clock {
-    font-size: 90px;
+    font-size: 85px;
   }
 
 }
