@@ -67,7 +67,7 @@ footer .who {
   }
 
   footer .who {
-    display: block;
+    display: none;
   }
 
 }
