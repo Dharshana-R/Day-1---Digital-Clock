@@ -36,10 +36,36 @@ small {
   font-size: 60px;
 }
 
+footer .who {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  padding-top: 30rem;
+  color: whitesmoke;
+}
+
+.who a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.who a:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
 @media only screen and (max-width: 600px) {
 
   .clock {
     font-size: 90px;
+  }
+
+  footer .who {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
   }
 
 }
