@@ -61,5 +61,9 @@ footer .who {
   .clock {
     font-size: 85px;
   }
+  
+  .who {
+    margin-top: -10rem !important;
+  }
 
 }
