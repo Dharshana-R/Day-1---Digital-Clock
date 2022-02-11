@@ -44,7 +44,7 @@ function showTime() {
   } else if (h >= 1 && h <= 4 && session === "PM") {
     bg = `url(https://tinyurl.com/4a5jy7mt)`;
     user.innerHTML = `Good Afternoon, ${userName}`;
-  } else if (h <= 4 && h>=7 session === "PM") {
+  } else if (h >= 4 && h <= 7 session === "PM") {
     bg = `url(https://tinyurl.com/yr6m3xrx)`;
     user.innerHTML = `Good Evening, ${userName}`;
   } else {
