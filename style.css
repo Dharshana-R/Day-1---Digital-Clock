@@ -67,11 +67,7 @@ footer .who {
   }
 
   footer .who {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 1rem;
-    padding-top: 90rem !important;
+    display: block;
   }
 
 }
