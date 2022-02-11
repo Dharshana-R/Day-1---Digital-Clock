@@ -41,10 +41,10 @@ function showTime() {
   } else if (h > 8 && h < 12 && session === "AM") {
     bg = `url(https://tinyurl.com/2p8fbwc4)`;
     user.innerHTML = `Good Day, ${userName}`;
-  } else if (h >= 1 && h <= 4 && session === "PM") {
+  } else if (h >= 1 && h <= 5 && session === "PM") {
     bg = `url(https://tinyurl.com/4a5jy7mt)`;
     user.innerHTML = `Good Afternoon, ${userName}`;
-  } else if (h >= 4 && h <= 7 session === "PM") {
+  } else if (h <= 10 && session === "PM") {
     bg = `url(https://tinyurl.com/yr6m3xrx)`;
     user.innerHTML = `Good Evening, ${userName}`;
   } else {
