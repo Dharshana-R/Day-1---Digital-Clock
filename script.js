@@ -53,7 +53,8 @@ function showTime() {
   }
 
   const body = document.querySelector("body");
-  body.style.background = `${bg} center/cover/fixed`;
+  body.style.background = `${bg} center/cover`;
+  document.body.style.backgroundAttachment = "fixed";
 }
 
 
